@@ -208,7 +208,7 @@ pickle.dump(model,open(filename,'wb')
 
 
 ## Deployment
-https://dataset-hzeytbrghafkrmxgjfqt6n.streamlit.app/
+https://luxury-dat.streamlit.app/
 
 **---Ini adalah bagian akhir laporan---**
 
