@@ -21,4 +21,4 @@ if st.button('cek') :
     predict = model.predict(
         [[Glucose,BloodPressure,SkinThickness,Insulin,BMI, DiabetesPedigreeFunction, Age, Intercept]]
     )
-    st.write('Estimasi Harga mobil dalam ponds : ', predict)
+    st.write('hasil : ', predict)
