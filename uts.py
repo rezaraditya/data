@@ -19,7 +19,7 @@ predict = ''
 
 if st.button('cek') :
     predict = model.predict(
-       x = [[Glucose,BloodPressure,SkinThickness,Insulin,BMI, DiabetesPedigreeFunction, Age, Intercept]]
+       x = [Glucose,BloodPressure,SkinThickness,Insulin,BMI, DiabetesPedigreeFunction, Age, Intercept]
         print()
     )
     total = sum(x)
